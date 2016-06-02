@@ -71,6 +71,7 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
+  #deploy.deploy_method = :ftp
   deploy.branch = 'gh-pages'
   deploy.build_before = true
 end
